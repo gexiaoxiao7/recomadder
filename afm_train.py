@@ -68,6 +68,7 @@ def load_data(cfg):
             E_item_final.clone().detach().to(device), res, fields)# (num_attractions, embedding_dim)
 
 def evaluation(model, edge_index, exclude_edge_indices, k, lambda_val = 1e-6):
+
     pass
 
 def train_afm(model, res, fields ,item_features, E_user_final, E_item_final, epochs=10, batch_size=512, lr=0.001):

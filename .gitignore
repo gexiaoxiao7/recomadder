@@ -6,3 +6,4 @@ saved_models
 test
 .idea
 *.zip
+__pycache__
